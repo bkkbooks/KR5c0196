@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0196/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0196/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 正一旨教齋清旦行道儀
+  date: '2015-08-29 00:54:18.181431'
+  source:
+    repository: kanripo
+    path: KR5c0196
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0196_000-ZTDZ.yaml, hash: 'sha256:ba9797382883f39e63d522fee0b456c0aea91099f88e9e6e20fc87c0190f7b6e'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0196_000-ZTDZ.markers.yaml, hash: 'sha256:acc265d304bd66704ec25b0872caccbcb0553fee487750add2904e6fcfdd9c87'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0196_SJB_000-180293b
+    span:
+    - body
+    - 0
+    - 1622
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:9679b8220b32bf282e0a003342626073f7714732f40ad5ab806f9cd46d1c5a4f
